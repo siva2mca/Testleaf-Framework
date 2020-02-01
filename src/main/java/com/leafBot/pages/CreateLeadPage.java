@@ -21,7 +21,7 @@ public class CreateLeadPage extends ProjectSpecificMethods {
 		PageFactory.initElements(driver, this);		
 	}
 
-
+//send company name
 	@FindBy(how=How.ID,using="createLeadForm_companyName")
 	private WebElement companyName;
 
